@@ -12,7 +12,7 @@
 var modifiedHeaders = $request.headers;
 modifiedHeaders['isAllowed'] = 'true';
 modifiedHeaders['status'] = 'true';
-
+console.log(modifiedHeaders);
 var modifiedPath = '/';
 
 $done({path: modifiedPath, headers : modifiedHeaders});
