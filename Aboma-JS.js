@@ -13,7 +13,7 @@ var modifiedHeaders = $request.headers;
 modifiedHeaders['isAllowed'] = 'true';
 modifiedHeaders['status'] = 'true';
 
-var modifiedPath = '/api2/abc?k=v';
+var modifiedPath = '/';
 
 $done({path: modifiedPath, headers : modifiedHeaders});
 // $done({path : modifiedPath});
