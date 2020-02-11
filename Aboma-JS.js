@@ -14,7 +14,7 @@ modifiedHeaders['isAllowed'] = 'true';
 modifiedHeaders['status'] = 'true';
 $notify('Script Loaded', 'Aboma-JS.js', '200 OK')
 console.log(modifiedHeaders);
-var modifiedPath = '/';
+var modifiedPath = '/*';
 
 $done({path: modifiedPath, headers : modifiedHeaders});
 // $done({path : modifiedPath});
